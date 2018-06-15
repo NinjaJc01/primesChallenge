@@ -1,5 +1,6 @@
 function primes() {    
     "use strict";
+    document.getElementById("results").innerText("Calculating...");
     const limit = 10000;
     var numbers = new Array();
     for (let i = 2; i<limit;i++) {numbers.push(i);}
@@ -19,5 +20,5 @@ function primes() {
     }
     //console.log(numbers);
     //console.log((new Date() - start));
-    document.write(numbers+"\n "+(new Date() - start)+"ms")
+    document.getElementById("results").innerText(numbers+"\n "+(new Date() - start)+"ms");
 }
