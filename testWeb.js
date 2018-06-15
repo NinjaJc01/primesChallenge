@@ -2,7 +2,7 @@ function primes() {
     "use strict";
     const limit = 10000;
     var numbers = new Array();
-    for (let i = 1; i<limit;i++) {numbers.push(i);}
+    for (let i = 2; i<limit;i++) {numbers.push(i);}
     //console.log(numbers);
     var x = 2;
     var start = new Date()
