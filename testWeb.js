@@ -1,6 +1,7 @@
 function primes() {
     "use strict";
-    document.getElementById("results").textContent = "Calculating...";
+    window.setTimeout(() => document.getElementById("results").textContent = "Calculating...", 0);
+
     const limit = 10000;
     var numbers = [];
     for (let i = 2; i<limit; i++)
