@@ -19,5 +19,5 @@ function primes() {
     }
     //console.log(numbers);
     //console.log((new Date() - start));
-    document.write((new Date() - start));
+    document.write(numbers+"\n "+(new Date() - start)+"ms")
 }
