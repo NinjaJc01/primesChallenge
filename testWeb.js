@@ -1,6 +1,5 @@
 "use strict";
 function primes() {
-    "use strict";
     const limit = 10000;
     let numbers = [];
     for (let i = 2; i<limit; i++)
