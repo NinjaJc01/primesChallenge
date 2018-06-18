@@ -1,16 +1,17 @@
+"use strict";
 function primes() {
     "use strict";
     const limit = 10000;
-    var numbers = [];
+    let numbers = [];
     for (let i = 2; i<limit; i++)
     {
         numbers.push(i);
     }
-    var x = 2;
-    var start = new Date()
-    while (x < (Math.floor(limit/2)))
+    let x = 2;
+    let start = new Date()
+    while (x < (Math.floor(Math.sqrt(limit))))
     {
-        var y = 2;
+        let y = 2;
         while ((x*y) <= limit)
         {
             if (numbers.includes(x*y))
