@@ -28,6 +28,6 @@ function handler() {
     $("#results").text("Calculating...");
     window.setTimeout(() => {
         primes();
-      }, 0);
+      }, 50);
 }
 
