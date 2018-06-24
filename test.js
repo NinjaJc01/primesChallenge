@@ -16,5 +16,5 @@ while (x < (Math.floor(limit/2)))
     }
     x += 1;
 }
-//console.log(numbers);
+console.log(numbers[numbers.length -1]);
 console.log((new Date() - start));

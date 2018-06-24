@@ -21,5 +21,13 @@ function primes() {
         }
         x += 1;
     }
-    document.getElementById("results").textContent = (numbers+"\n "+(new Date() - start)+"ms");
+    //document.getElementById("results").textContent = ;
+    $("#results").text((numbers+"\n "+(new Date() - start)+"ms"))
 }
+function handler() {
+    $("#results").text("Calculating...");
+    window.setTimeout(() => {
+        primes();
+      }, 0);
+}
+
